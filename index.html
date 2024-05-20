@@ -24,7 +24,7 @@
     <div
       class="w-screen h-fit md:h-screen flex flex-col items-center justify-center p-4 md:p-8"
     >
-      <div class="max-h-[50%]">
+      <div class="w-1/2 md:w-auto md:max-h-[50%]">
         <img
           src="./assets/img/slide1.png"
           alt=""
@@ -37,7 +37,7 @@
     </div>
     <!-- slide 2 -->
     <div
-      class="w-screen h-fit md:h-screen md:grid gap-4 grid-cols-4 grid-rows-2 p-4 px-10"
+      class="w-screen h-fit md:h-screen md:grid gap-4 grid-cols-4 grid-rows-2 p-4 md:px-10"
     >
       <div class="col-span-2 col-start-1 row-start-1">
         <img
@@ -75,11 +75,11 @@
 
     <!-- slide 3 -->
     <div
-      class="slide-3 relative w-screen h-fit md:h-screen flex items-start justify-end p-4 md:p-8"
+      class="slide-3 relative w-screen h-fit md:h-screen md:flex items-start justify-end p-4 md:p-8"
     >
       <img
         src="./assets/img/slide-3-trump-point.svg"
-        class="absolute bottom-0 left-0 w-1/2 object-contain z-50"
+        class="absolute bottom-0 left-0 w-3/4 md:w-1/2 object-contain z-50"
         alt=""
         srcset=""
       />
@@ -107,17 +107,19 @@
 
         <div class="flex flex-col gap-4">
           <h3
-            class="text-xl mt-4 font-semibold py-2 border-b border-solid border-gray-200"
+            class="text-base md:text-xl mt-4 font-semibold py-2 border-b border-solid border-gray-200"
           >
             Republican - Tokenomics
           </h3>
 
           <div
-            class="w-full flex items-center justify-start border-b border-solid border-gray-200 gap-4"
+            class="text-sm md:text-base w-full flex items-center justify-start border-b border-solid border-gray-200 gap-4"
           >
-            <div class="border-b-2 border-solid border-black">Article</div>
+            <div class="border-b-2 border-solid border-black cursor-pointer">
+              Article
+            </div>
             <div
-              class="border-b-2 border-solid border-transparent text-blue-600"
+              class="border-b-2 border-solid border-transparent text-blue-600 cursor-pointer"
             >
               Talk
             </div>
