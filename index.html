@@ -11,10 +11,137 @@
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    Main content
+    <!-- slide 1 -->
+    <div
+      class="w-screen h-fit md:h-screen flex flex-col items-center justify-center p-4 md:p-8"
+    >
+      <div class="max-h-[50%]">
+        <img
+          src="./assets/img/slide1.png"
+          alt=""
+          srcset=""
+          class="h-full m-auto object-container"
+        />
+      </div>
+
+      <div class="min-h-1/2 uppercase text-[13vw] font-bold">REPUBLIC</div>
+    </div>
+    <!-- slide 2 -->
+    <div
+      class="w-screen h-fit md:h-screen md:grid gap-4 grid-cols-4 grid-rows-2 p-4 px-10"
+    >
+      <div class="col-span-2 col-start-1 row-start-1">
+        <img
+          src="./assets/img/slide-2.1.png"
+          alt=""
+          class="w-full h-full"
+          srcset=""
+        />
+      </div>
+      <div class="col-span-2 col-start-1 row-start-2">
+        <img
+          src="./assets/img/slide-2.2.png"
+          alt=""
+          class="w-full h-full"
+          srcset=""
+        />
+      </div>
+      <div class="col-span-1 row-span-2 col-start-3">
+        <img
+          src="./assets/img/slide-2.3.png"
+          alt=""
+          class="w-full h-full"
+          srcset=""
+        />
+      </div>
+      <div class="col-span-1 row-span-2 col-start-4">
+        <img
+          src="./assets/img/slide-2.4.png"
+          alt=""
+          class="w-full h-full"
+          srcset=""
+        />
+      </div>
+    </div>
+
+    <!-- slide 3 -->
+    <div
+      class="slide-3 relative w-screen h-fit md:h-screen flex items-start justify-end p-4 md:p-8"
+    >
+      <img
+        src="./assets/img/slide-3-trump-point.svg"
+        class="absolute bottom-0 left-0 w-1/2 object-contain z-50"
+        alt=""
+        srcset=""
+      />
+
+      <div class="md:w-1/2 bg-white md:min-w-[400px] p-4 md:p-6">
+        <!-- Search panel -->
+        <div class="flex items-center justify-center h-8 relative">
+          <img
+            src="./assets/img/Search.jpg"
+            class="h-3/5 object-contain absolute top-1/2 left-1 -translate-y-1/2"
+            alt=""
+            srcset=""
+          />
+          <input
+            type="text"
+            class="flex-1 h-full pr-2 pl-8 text-xs border border-solid border-gray-200"
+            placeholder="Search Wikipedia"
+          />
+          <button
+            class="bg-gray-200 h-full px-4 border-gray border-solid border font-bold text-xs"
+          >
+            Search
+          </button>
+        </div>
+
+        <div class="flex flex-col gap-4">
+          <h3
+            class="text-xl mt-4 font-semibold py-2 border-b border-solid border-gray-200"
+          >
+            Republican - Tokenomics
+          </h3>
+
+          <div
+            class="w-full flex items-center justify-start border-b border-solid border-gray-200 gap-4"
+          >
+            <div class="border-b-2 border-solid border-black">Article</div>
+            <div
+              class="border-b-2 border-solid border-transparent text-blue-600"
+            >
+              Talk
+            </div>
+          </div>
+
+          <!-- tokenomic info -->
+          <div>96%LP - 5% MKT</div>
+
+          <i class="px-2 md:px-6">
+            "GOP" redirects here. For other uses, see. For the 1792-1834 party,
+            see <a class="text-blue-600">Democratic-Republican Party</a>.
+          </i>
+
+          <span class="text-sm">
+            <b>The Republican Party</b>, also known as the
+            <b>GOP (Grand Old Party)</b>, is one of the
+            <a class="text-blue-600">two major</a> contemporary
+            <a class="text-blue-600">political parties in the United States</a>.
+            It emerged as the main political rival of the
+            <a class="text-blue-600">democratic Party</a> mid-1850s.
+          </span>
+        </div>
+      </div>
+    </div>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
